@@ -2,7 +2,7 @@
 
 <a href="https://github.com/to/tombloo/wiki" title="Home - GitHub">Tombloo</a> で利用するスクリプトです。
 
-パッチ・ファイルのインストールは、各スクリプトページの raw を右クリックして「tombloo パッチのインストール」を選びましょう。
+パッチ・ファイルのインストールは、各スクリプトページの raw を右クリックして「tombloo パッチのインストール」を選んでください。
 
 ## 各ファイルの説明
 
