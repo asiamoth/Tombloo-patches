@@ -8,5 +8,8 @@
 
 * tombloo.service.extractors.NicoNicoSeiga.js
     * <a href="http://seiga.nicovideo.jp/" title="ニコニコ静画(W)">ニコニコ静画</a>の投稿ページから、原寸大の画像を Post するパッチ
-* <a href="https://github.com/asiamoth/Tombloo-patches/blob/master/model.Tumblr.via-by.js" title="model.Tumblr.via-by.js at master from asiamoth/Tombloo-patches - GitHub">model.Tumblr.via-by.js</a>, <a href="https://github.com/asiamoth/Tombloo-patches/blob/master/model.Tumblr.photo2queue.js" title="model.Tumblr.photo2queue.js at master from asiamoth/Tombloo-patches - GitHub">model.Tumblr.photo2queue.js</a>
+* model.Tumblr.via-by.js, model.Tumblr.photo2queue.js
     * 説明: <a href="http://asiamoth.com/mt/archives/2010-05/09_2351.php" title="Tombloo のパッチ作成 「via を by に変更」「写真はキューへ登録」 : 亜細亜ノ蛾 - Weblog">Tombloo のパッチ作成 「via を by に変更」「写真はキューへ登録」 : 亜細亜ノ蛾 - Weblog</a>
+* model.HatenaBookmark.replaceTags.js
+    * <a href="http://b.hatena.ne.jp/" title="はてなブックマーク">はてなブックマーク</a>のタグのみ置換して投稿する
+    * <a href="http://i.hatena.ne.jp/idea/6785" title="はてなアイデア - タグの文字数制限をせめて１文字増やしてほしい。現状では、[ソーシャルブックマーク]とタグ付けしようとすると、[ソーシャルブックマー]となってしまう。">タグの文字数制限が厳しすぎて、[ソーシャルブックマーク] が [ソーシャルブックマー] になってしまう</a>ため
