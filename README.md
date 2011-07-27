@@ -13,5 +13,5 @@
 * model.HatenaBookmark.replaceTags.js
     * <a href="http://b.hatena.ne.jp/" title="はてなブックマーク">はてなブックマーク</a>のタグのみ置換して投稿する
     * <a href="http://i.hatena.ne.jp/idea/6785" title="はてなアイデア - タグの文字数制限をせめて１文字増やしてほしい。現状では、[ソーシャルブックマーク]とタグ付けしようとすると、[ソーシャルブックマー]となってしまう。">タグの文字数制限が厳しすぎて、[ソーシャルブックマーク] が [ソーシャルブックマー] になってしまう</a>ため
-* models.register.bitly.js
+* models.bitly.js
     * Tombloo が bit.ly を利用する際に、自分の API_KEY と USER を使う
