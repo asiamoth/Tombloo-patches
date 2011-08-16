@@ -6,8 +6,14 @@
 
 ## 各ファイルの説明
 
+* tombloo.service.extractors.amazon.extract.js
+    * Amazon 関連のポスト時に起こるタイトルの問題を修正する
 * tombloo.service.extractors.NicoNicoSeiga.js
     * <a href="http://seiga.nicovideo.jp/" title="ニコニコ静画(W)">ニコニコ静画</a>の投稿ページから、原寸大の画像を Post するパッチ
+* tombloo.service.extractors.yfrog.js
+    * <a href="http://yfrog.com/" title="yfrog — Share, Converse and Connect">yfrog</a> の投稿ページにある縮小画像から、zoom した画像を Post する
+    * じつは、yfrog では画像への直リンが右下にある（と作っている途中で気がついた）
+    * まだ十分にテストをしていないので、使う時は自己責任でお願いします！
 * model.Tumblr.via-by.js, model.Tumblr.photo2queue.js
     * 説明: <a href="http://asiamoth.com/mt/archives/2010-05/09_2351.php" title="Tombloo のパッチ作成 「via を by に変更」「写真はキューへ登録」 : 亜細亜ノ蛾 - Weblog">Tombloo のパッチ作成 「via を by に変更」「写真はキューへ登録」 : 亜細亜ノ蛾 - Weblog</a>
 * model.HatenaBookmark.replaceTags.js
