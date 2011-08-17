@@ -3,8 +3,8 @@
  *
  * † ニコニコ静画</a>の投稿ページから、原寸大の画像を Post するパッチ
  *
- * @version 0.02
- * @date 2011-08-16
+ * @version 0.03
+ * @date 2011-08-18
  * @author asiamoth <asiamoth+github@gmail.com>
  * - Blog    : http://asiamoth.com/mt/
  * - Twitter : http://twitter.com/asiamoth
@@ -12,7 +12,7 @@
  *             http://news.asiamoth.com/
  *             http://ero.asiamoth.com/
  * @license Same as Tombloo
- * @updateURL https://github.com/asiamoth/Tombloo-patches/blob/master/tombloo.service.extractors.NicoNicoSeiga.js
+ * @updateURL https://github.com/asiamoth/Tombloo-patches/raw/master/tombloo.service.extractors.NicoNicoSeiga.js
  *
  * Tombloo: https://github.com/to/tombloo/wiki
  */

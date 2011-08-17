@@ -3,8 +3,8 @@
  *
  * † Amazon 関連のポスト時に起こるタイトルの問題を修正する
  *
- * @version 0.01
- * @date 2011-08-16
+ * @version 0.02
+ * @date 2011-08-18
  * @author asiamoth <asiamoth+github@gmail.com>
  * - Blog    : http://asiamoth.com/mt/
  * - Twitter : http://twitter.com/asiamoth
@@ -12,7 +12,7 @@
  *             http://news.asiamoth.com/
  *             http://ero.asiamoth.com/
  * @license Same as Tombloo
- * @updateURL https://github.com/asiamoth/Tombloo-patches/blob/master/tombloo.service.extractors.amazon.extract.js
+ * @updateURL https://github.com/asiamoth/Tombloo-patches/raw/master/tombloo.service.extractors.amazon.extract.js
  *
  * Tombloo: https://github.com/to/tombloo/wiki
  */
