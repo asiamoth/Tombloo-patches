@@ -4,7 +4,7 @@
  * † 「Amazon の拡大画像を share するパッチ」の適用ページを広げる
  * http://tumblr.g.hatena.ne.jp/cxx/20100627/1277629070
  *
- * @version 0.02
+ * @version 0.01
  * @date 2011-08-18
  * @author asiamoth <asiamoth+github@gmail.com>
  * - Blog    : http://asiamoth.com/mt/

@@ -3,8 +3,8 @@
  *
  * † Amazon 関連のポスト時に起こるタイトルの問題を修正する
  *
- * @version 0.02
- * @date 2011-08-18
+ * @version 0.03
+ * @date 2011-08-19
  * @author asiamoth <asiamoth+github@gmail.com>
  * - Blog    : http://asiamoth.com/mt/
  * - Twitter : http://twitter.com/asiamoth
@@ -23,7 +23,7 @@
 
     var asinTitle = $x('id("btAsinTitle")'),
       // 01_utility.js: function $x(exp, context, multi)
-      // multi にして複数の著作者名をすべて配列で取得
+      // multi にして複数の著作者名をすべて「配列で」取得
       author = $x('id("handleBuy")/div[@class="buying"]//a/text()',
         currentDocument(), true);
 
@@ -31,7 +31,8 @@
 
     if (asinTitle) {
       ctx.title = 'Amazon: ' + convertToPlainText(asinTitle);
-      if (author) {
+      // javascript: if ([]) {alert('true')} // 空の配列は true
+      if (author.length !== 0) {
         ctx.title += ': ' + author.join(', ');
       }
     } else {
