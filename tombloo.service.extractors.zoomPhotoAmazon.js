@@ -4,7 +4,7 @@
  * † 「Amazon の拡大画像を share するパッチ」の適用ページを広げる
  * http://tumblr.g.hatena.ne.jp/cxx/20100627/1277629070
  *
- * @version 0.01
+ * @version 0.02
  * @date 2011-08-18
  * @author asiamoth <asiamoth+github@gmail.com>
  * - Blog    : http://asiamoth.com/mt/
@@ -38,11 +38,14 @@
     ps = proceed(args);
     ps.itemUrl = ps.itemUrl.replace('.L.LZZZZZZZ.', '.L.');
 
-    // HTML をお手軽にコピー
-    // template = ['<a href="', ctx.href, '"><img alt="photo" src="',
-    //             ps.itemUrl.replace('.LZZZZZZZ.', '._SL160_.'),
-    //             '" /></a>'].join('');
-    // copyString(template);
+    // add @asiamoth
+    template = ['<div class="xfolkentry shopping">',
+                '<p><a class="taggedlink" href="', ctx.href, '">',
+                '<img alt="photo" src="',
+                ps.itemUrl.replace('.LZZZZZZZ.', '._SL160_.'),'" /></a></p>',
+                '<p class="description"><a href="', ctx.href, '">',
+                escapeHTML(ctx.title), '</a></p></div>'].join('');
+    copyString(template);
 
     // 拡大画像を取得する
     // パターン 1
@@ -74,4 +77,5 @@
     return ps;
 
   });
+
 })();
